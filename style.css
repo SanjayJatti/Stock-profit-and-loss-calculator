@@ -28,6 +28,7 @@ body{
     background-color: #06d6a0;
  }
  main{
+   
     margin:auto;
     max-width: 800px;
     padding-left: 1rem;
@@ -71,5 +72,36 @@ button{
     font-size: 1.3rem;
     font-weight: bold;
     color:white;
+}
 
+.footer {
+    font-family: 'Righteous', cursive;
+    background-color:#003566;
+    color: white;
+    padding: 2rem 0rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.footer .heading {
+    font-size: larger;
+    padding-bottom: 1rem;
+  
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+    list-style: none;
+} 
+.list-inline li {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    /* display: inline; */
+    /* padding: 0rem 0.5rem; */
+    padding: 0.5rem 1rem;
+    color: white;
 }
