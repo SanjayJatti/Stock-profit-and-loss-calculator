@@ -16,7 +16,7 @@ function calculateProfitAndLoss(initial,qty,current){
         outputEl.style.background="green";
     }else if(initial > current){
         var loss = (initial - current)*qty;
-        var lossPercentage = (loss/initial)*100;
+        var lossPercentage = (loss/initial*qty)*100;
         outputMsg(`Oops! You are in loss 😌. The loss is ${loss.toFixed(2)} and the loss percentage is ${lossPercentage.toFixed(2)}%`);
         outputEl.style.background="red";
     }else{
